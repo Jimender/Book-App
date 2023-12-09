@@ -30,6 +30,11 @@ npm start
 
 This will start the MERN server.
 
+## Swiper JS
+```
+https://codesandbox.io/p/sandbox/sw6ctl?file=%2Fsrc%2Fstyles.css%3A84%2C1
+```
+
 ### Common Sections
 
 #### Technologies Used
