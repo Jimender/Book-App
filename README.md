@@ -1,4 +1,4 @@
-```markdown
+
 # MERN Client
 
 This is the client-side application for a MERN (MongoDB, Express.js, React, Node.js) stack project.
