@@ -2,6 +2,6 @@ header,nav{
     z-index: 100001 !important;
 }
 
-#flowbite-footer{
-    background-color: yellow;
+.height-full{
+    height: 100vh !important;
 }

@@ -49,12 +49,12 @@ const BookCards = ({headline,books}) => {
               books.map(book => <SwiperSlide key={book._id}>
                 <Link to={`/book/${book._id}`}>
                   <div className='relative'>
-                    <img src={book.imageURL} alt="" className='w-full h-full'/>
+                    <img src={book.imageURL} alt="" className='w-full h-96 object-cover rounded'/>
                     <div className='absolute top-3 right-3 bg-blue-600 hover:bg-black p-2 rounded'>
                       <FaCartShopping className='w-4 h-4 text-white'/>
                     </div>
                   </div>
-                  <div className=''>
+                  <div className='mt-4'>
                     <div>
                       <h3>{book.bookTitle}</h3>
                       <p>{book.authorName}</p>
